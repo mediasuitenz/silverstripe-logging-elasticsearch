@@ -1,0 +1,22 @@
+{
+    "name": "mediasuite/silverstripe-logging-elasticsearch",
+    "description": "A modification of monologs public logging handler to allow Elastic Search to work with Silverstripe 4 project and the latest elasticsearch version on the Cloud",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mediasuite\\SilverstripeLoggingElasticsearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robbie McClintock",
+            "email": "robbiemcclintock@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "monolog/monolog": "^1",
+        "ruflin/elastica": "^7"
+    },
+    "minimum-stability": "dev"
+}
